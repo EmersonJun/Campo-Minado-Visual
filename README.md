@@ -1,18 +1,62 @@
-## Getting Started
+<h2 align="center">
+  💣 Campo Minado em Java
+</h2>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<p align="center">
+  Versão evoluída do clássico Campo Minado, desenvolvida em <b>Java</b>, migrando do <b>terminal</b> para uma
+  <b>interface gráfica com Java Swing</b>.
+</p>
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📌 Sobre o Projeto
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Este projeto é uma implementação do clássico **Campo Minado**, inicialmente desenvolvido para rodar apenas no
+**console**.  
+Com o passar do tempo e a evolução das minhas habilidades em **Java e POO**, o projeto foi revisitado e ganhou
+uma **interface gráfica utilizando Java Swing**, proporcionando uma experiência mais visual e interativa.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🛠️ Tecnologias Utilizadas
 
-## Dependency Management
+- ☕ Java
+- 🪟 Java Swing
+- 🧠 Programação Orientada a Objetos (POO)
+- 🔧 Git & GitHub
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 🎮 Funcionalidades
+
+- Geração dinâmica do campo
+- Posicionamento aleatório de minas
+- Cálculo de minas adjacentes
+- Interação por cliques do mouse
+- Interface gráfica intuitiva
+- Detecção de vitória e derrota
+
+---
+
+## 📁 Estrutura do Projeto
+
+O projeto está organizado seguindo boas práticas de separação de responsabilidades, com foco em **POO** e **arquitetura MVC**:
+
+```bash
+src/
+ └── br/
+     └── com/
+         └── cod3r/
+             └── calculadora/
+                 ├── model/
+                 │   ├── Memoria.java
+                 │   └── MemoriaObservador.java
+                 └── view/
+                     ├── Botao.java
+                     ├── Calculadora.java
+                     ├── Display.java
+                     └── Teclado.java
+
+test/
+README.md
+
